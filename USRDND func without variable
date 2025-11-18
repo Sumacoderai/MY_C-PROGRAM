@@ -1,0 +1,9 @@
+#include<stdio.h>
+int suma() {
+    printf ("suma");
+    printf ("vani");
+    printf ("niharika");
+}
+int main(){
+    suma;
+}
