@@ -1,0 +1,8 @@
+// string in c//
+#include <stdio.h>
+int main() {
+    char rajesh [20];
+    printf ("enter array");
+    scanf ("%s",&rajesh);
+    printf ("%s",rajesh);
+}
