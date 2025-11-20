@@ -1,0 +1,9 @@
+//compare two strings//
+#include <stdio.h>
+#include<string.h>
+int main() {
+    int a=strcmp("suma","nethra");
+    printf("%d",a);
+
+    
+}
