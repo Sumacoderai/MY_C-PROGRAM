@@ -1,0 +1,27 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main () {
+    int id;
+    int pan = 123456;
+    int aadhaar = 987654;
+    int drivinglicence = 135724;
+    int passport = 246789;
+    printf ("enter your unique identification number:");
+    scanf ("%d",&id);
+    if(id==pan){
+        printf ("I'd verified:pan number matched. \n");
+    }
+    else if (id==aadhaar){
+        printf ("id verification:aadhaar number matched. \n");
+    }
+    else if (id==drivinglicence) {
+        printf ("id verification:driving license matched. \n");
+    }
+    else if (id==passport) {
+        printf ("id verification:passport matched. \n");
+    }
+    else {
+        printf ("id not verified:no match found. \n");
+    }
+    return 0;
+}
